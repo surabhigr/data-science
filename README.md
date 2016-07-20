@@ -5,7 +5,7 @@ in layman's terms, **data science** is a pretty combination and permutations of 
 A data science task consists of deployment instructions, analytics, data-metrics and more!
 
 
-**Note:**  Please go through sub-directories to see numbers and graphs!
+**Note:**  Please go through sub-directories to see numbers and graphs! Apologies that I followed curiosity about git and not created PDF.
 
 ### Aspects Covered:
   - Trends
