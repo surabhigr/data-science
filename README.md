@@ -47,8 +47,9 @@ ORDER BY  `Orders_placed` DESC;
 
 * **Finding Orders placed in each site**
 
-  - Acme is leading in sales (7392 orders in a year, not bad)!
-  - Oddly Botly, Widgetry and Tabular has distinct number of orders (804) placed.
+  - Acme leaves behind others, it's leading in sales (1172356 orders in a year, not bad)!
+  - Meadian of the orders is 39306.5.
+  - There're 1313764 total orders made in 2013.
 
  - Solution
 ```
@@ -74,7 +75,12 @@ ORDER BY  `Sales` DESC;
 
 **Surprising Facts**
 
-* I've worked on this in 4 hours of seating. 
+* I've worked on this in 3 hours of seating. 
 
 **Declaimer**: I will make this solution private once the interview process is over or by a week whichever is earliest to maintain the privacy of the data given.
+
+
+
+
+
 
