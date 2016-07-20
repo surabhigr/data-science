@@ -52,16 +52,29 @@ ORDER BY  `Orders_placed` DESC;
 
  - Solution
 ```
-SELECT  site, COUNT(  `orders` )  AS  `Orders_placed` 
+SELECT  site, SUM(  `orders` )  AS  `Orders_placed` 
 FROM  `analytics` 
 GROUP BY  site
 ORDER BY  `Orders_placed` DESC;
 ```
 
 
+* **Finding Total Sales made by sites during 2013**
+
+  - Acme is leading in sales doing sales of 168million, whereas Botly is least profiting doing sales of 981 grands!
+  - Total sales made by 6 sites is 189,196,951.
+
+ - Solution
+```
+SELECT  site, SUM(`gross_sales`)  AS  `Sales` 
+FROM  `analytics` 
+GROUP BY  site
+ORDER BY  `Sales` DESC;
+```
+
 **Surprising Facts**
 
-* I've worked on this in 3 hours of seating. 
+* I've worked on this in 4 hours of seating. 
 
 **Declaimer**: I will make this solution private once the interview process is over or by a week whichever is earliest to maintain the privacy of the data given.
 
