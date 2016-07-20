@@ -4,18 +4,21 @@ in layman's terms, **data science** is a pretty combination and permutations of 
 
 A data science task consists of deployment instructions, analytics, data-metrics and more!
 
+
+**Note:**  Please go through sub-directories to see numbers and graphs!
+
 ### Aspects Covered:
   - Trends
   - Visualisation
   - Data points
 
-
-
-
 ### Solutions:
 
 * Finding Platform specific users:
 
+  - Surprisingly there're no orders placed in March, April and May month.
+  - Highest orders in December being Christmast and the lowest orders placed during July month.
+  - 
 ```
 SELECT  `platform` , COUNT(  `visits` )  AS  `platform_specific_visits` 
 FROM  `analytics` 
