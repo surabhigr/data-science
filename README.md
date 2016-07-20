@@ -44,9 +44,24 @@ GROUP BY  MONTH(`day`)
 ORDER BY  `Orders_placed` DESC;
 ```
 
+
+* **Finding Orders placed in each site**
+
+  - Acme is leading in sales (7392 orders in a year, not bad)!
+  - Oddly Botly, Widgetry and Tabular has distinct number of orders (804) placed.
+
+ - Solution
+```
+SELECT  site, COUNT(  `orders` )  AS  `Orders_placed` 
+FROM  `analytics` 
+GROUP BY  site
+ORDER BY  `Orders_placed` DESC;
+```
+
+
+**Surprising Facts**
+
+* I've worked on this in 3 hours of seating. 
+
 **Declaimer**: I will make this solution private once the interview process is over or by a week whichever is earliest to maintain the privacy of the data given.
-
-
-
-
 
