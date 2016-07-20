@@ -23,7 +23,20 @@ GROUP BY  `platform`
 ORDER BY  `platform_specific_visits` DESC;
 ```
 
-**Declaimer**: I will make this solution private once the interview process is over or by a week whichever is earliest.
+* Finding Orders placed in each months
+
+  - Surprisingly there're no orders placed in March, April and May month.
+  - Highest orders in December being Christmast and the lowest orders placed during July month.
+  - Average orders are 2340 per month (excluding draught months)
+
+```
+SELECT  MONTH(`day`) AS Month , COUNT(  `orders` )  AS  `Orders_placed` 
+FROM  `analytics` 
+GROUP BY  MONTH(`day`)
+ORDER BY  `Orders_placed` DESC;
+```
+
+**Declaimer**: I will make this solution private once the interview process is over or by a week whichever is earliest to maintain the privacy of the data given.
 
 
 
